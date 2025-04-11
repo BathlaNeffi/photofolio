@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+.main_content{
+
+    margin: 0 50px;
+    padding: 20px 20px;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+.back{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 0px 10px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main_title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .add_album_btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+
+.add_album_btn:hover{
+    background-color: #0056b3;
+}
+
+
+.cancle_album_btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff000d; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+
+.cancle_album_btn:hover{
+    background-color: #700303;
+}
+
+.album_grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.imageViewer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Optional dark overlay */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

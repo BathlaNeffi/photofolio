@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+.navBarBody{
+    background-color: rgb(160,160,248);
+    display: flex;
+    width: 100vw;
+    height: 60px;
+
+}
+.wrapper{
+    display: flex;
+    margin-left: 80px;
+    width: 170px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.wrapper img{
+    height: 50px;
+
+}

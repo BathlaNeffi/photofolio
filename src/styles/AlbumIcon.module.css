@@ -1,0 +1,40 @@
+.main_outer_icon{
+    margin: 50px 20px;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    background-color: #EEEEEE;
+    margin: 20px;
+
+}
+.main_outer_icon:hover{
+    background-color: #1765b8;
+    cursor: pointer;
+    color: white;
+}
+
+
+.image_back{
+    margin-top: 7px;
+    background-color: white;
+    height: 120px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.image_back img{
+    height: 50px;
+    width: 50px;
+}
+.heading{
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
